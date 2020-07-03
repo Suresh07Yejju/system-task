@@ -1,0 +1,257 @@
+.container {
+  padding-left: 7rem;
+}
+
+.btn {
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.btn2 {
+  background:#3d0875;
+  color:white;
+  border: 1px solid #EEECF4;
+}
+
+.btn2:hover {
+  color: white;
+}
+
+header {
+  height: 100vh;
+}
+
+header nav {
+  padding-top: 2rem;
+  position: relative;
+}
+
+header nav .nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav .left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+nav .left ul li a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.left ul li a.active,
+.left ul li a:hover {
+  color: #FF1958;
+}
+
+.right button {
+  background: white;
+  border: 2px solid pink;
+  font-weight: bold;
+  font-size: 14px;
+  z-index: 1;
+  position: absolute;
+}
+
+header .hero {
+  padding: 6rem 0;
+}
+
+header .hero .hero-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .hero .hero-wrapper .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+header .hero .hero-wrapper .left h1 {
+  font-size: 4rem;
+  padding-right: 18rem;
+  margin-bottom: 3rem;
+}
+
+header .hero .hero-wrapper .left p {
+  color: #8A8A8A;
+  padding-right: 14rem;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+}
+
+header .hero .hero-wrapper .left button {
+  font-size: 1rem;
+}
+
+header .hero .hero-wrapper .right {
+          flex: 1;
+}
+
+header .hero .hero-wrapper .right img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+}
+
+section.feat {
+  padding: 5rem 0;
+}
+
+section.feat .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+   justify-content: space-evenly;
+}
+
+section.feat .card-wrapper .feature-card {
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  padding: 1rem 2rem 3rem 2rem;
+  margin-right: 3rem;
+  animation: all 5s ease-in-out;
+  cursor: pointer;
+  flex: 1;
+}
+
+ .feature-card .header {
+  padding: 2rem 0 2.5rem 0;
+}
+
+ .feature-card .header div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+ .header div.first {
+  background: #f59b42;
+}
+
+
+ .header div.second {
+  background:#f7606b;
+}
+
+ .header div.third {
+  background:#4a64f7;
+}
+
+.header div.fourth {
+  background:#5f2b8a;
+}
+
+.feature-card .body h3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 0 2rem;
+}
+
+section.publishers {
+  padding-bottom: 3rem;
+}
+
+ .last {
+  display: flex;
+ justify-content: left;
+ align-items: center;
+}
+
+.last .left {
+          flex: 1;
+}
+
+ .last .left img {
+  width: 100%;
+  margin-left: -5rem;
+}
+
+.last .right {
+  padding-right: 5rem;
+          flex: 1;
+}
+
+.last .right h3.header {
+  color: #fa3267;
+  letter-spacing: 0.15rem;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+}
+
+.last .right h3.paragraph {
+  margin-bottom: 1rem;
+  padding-right: 6rem;
+}
+
+.last .right p {
+  color: #c2c3c5;
+  padding-right: 6rem;
+  line-height: 2;
+  margin-bottom: 3rem;
+}
+
+.last .right div {
+  margin-bottom: 2rem;
+}
+
+ .last .right div ul {
+  list-style-type: none;
+}
+
+ .last .right div ul li {
+  color: #98A2B1;
+  font-weight: bold;
+  padding-right: 6rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+h2{
+  font-size:47px;
+}
+
+.btn {
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.btn1 {
+  background:#3d0875;
+  color:white;
+  border: 1px solid #EEECF4;
+}
+
+.btn1:hover {
+  color: white;
+}
